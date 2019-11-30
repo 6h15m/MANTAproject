@@ -1,0 +1,85 @@
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic';
+    opacity: 0.3;
+    z-index: 3;
+}
+
+  .link-2 a:hover {
+    opacity:1;
+}
+
+.lefti {
+  height: 100vh;
+  float: left;
+  margin-right:20px;
+  margin-top: 20px;
+  clear: both;
+}
+
+.righti {
+  height: 100vh;
+  float: right;
+  margin-right:20px;
+  margin-top: 20px;
+  clear: both;
+}
+
+.bg {
+  height : 100vh;
+}
+
+.sr{
+  position: relative;
+  top: 350pt;
+  color: white;
+  text-align: right;
+  font-size: 70pt;
+  font-family: 'Times';
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+h1{
+  color: white;
+}
+h2{
+  color: white;
+  font-size: 50pt;
+}
+h3{
+  color: white;
+  font-size: 35pt;
+}
+h4{
+  color: white;
+  font-size: 20pt;
+}
+
+h4:hover{
+  text-shadow:0px 0px 1rem rgb(255, 255, 255);
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+.nanummyeongjo * {
+ font-family: 'Nanum Myeongjo', serif;
+}

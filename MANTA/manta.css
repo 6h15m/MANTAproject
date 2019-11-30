@@ -1,0 +1,41 @@
+.vinxen{  
+    position: absolute;
+    bottom: -300px;
+    left: 25%;
+    z-index: 3;
+}
+
+.img{
+    position: relative;
+    background-image: url(images/17.jpg);                                                               
+    height: 100vh;
+    background-size: cover;
+}
+
+.img-cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(1, 0, 0, 0.5);                                                                 
+    z-index:1;
+ }
+ 
+ .img .content{
+    position: absolute;
+    top:50%;
+    left:40%;
+    transform: translate(-10%, -50%);                                                                   
+    font-size:5rem;
+    color: white;
+    z-index: 2;
+    float : right;
+    text-align: right;
+}
+
+a { text-decoration:none; color: white;}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+.nanummyeongjo * {
+ font-family: 'Nanum Myeongjo', serif;
+}
